@@ -5,7 +5,7 @@ import ProyectLayout from "../Layout/proyectLayout";
 import Loader from "../components/Loader/Loader";
 // Rutas del diplomado
 const Home = Loader(lazy(() => import("../views/Home/index")));
-const NoMatch = Loader(lazy(() => import("../views/error")));
+const NoMatch = Loader(lazy(() => import("../views/Error/error")));
 
 const ProyectRoutes = {
   path: "/",

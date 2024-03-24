@@ -1,1 +1,15 @@
+$mainColor: #008dda;
+$seconColor: #41c9e2;
+$complementaryColor1: #ace2e1;
+$complementaryColor2: #f7eedd;
+
 @import "./NoMatch/index";
+@import "./components/header";
+@import "./views/index";
+
+body {
+  margin: 0;
+  p {
+    margin: 0;
+  }
+}
