@@ -1,14 +1,15 @@
-$mainColor: #92C7CF;
-$seconColor: #AAD7D9;
-$complementaryColor1: #FBF9F1;
-$complementaryColor2: #E5E1DA;
-$footer: #E5E1DA;
+$mainColor: #92c7cf;
+$seconColor: #aad7d9;
+$complementaryColor1: #fbf9f1;
+$complementaryColor2: #e5e1da;
+$footer: #e5e1da;
 
 $media: 600px;
 @import "./NoMatch/index";
 @import "./components/header";
 @import "./components/footer";
 @import "./views/index";
+@import "./views/AboutUs";
 
 body {
   margin: 0;

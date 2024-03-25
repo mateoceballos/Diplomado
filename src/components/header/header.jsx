@@ -23,12 +23,22 @@ export default function Header() {
           navigate("/aboutUs");
         }}
       >
-        <p>Inicio</p>
+        <p>Acerca de nosotros</p>
       </div>
-      <div className="itemMenuGeneral">
+      <div
+        className="itemMenuGeneral"
+        onClick={() => {
+          navigate("/PQR");
+        }}
+      >
         <p>Preguntas frecuentes</p>
       </div>
-      <div className="itemMenuGeneral">
+      <div
+        className="itemMenuGeneral"
+        onClick={() => {
+          navigate("/Info");
+        }}
+      >
         <p>Obten mas información</p>
       </div>
     </header>
