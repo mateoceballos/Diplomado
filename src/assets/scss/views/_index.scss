@@ -16,7 +16,7 @@
   display: grid;
   grid-template-areas: "first second";
   justify-content: space-around;
-  height: 30vw;
+  height: 35vw;
   width: 100%;
   @media (max-width: $media) {
     justify-content: center;
@@ -95,11 +95,11 @@
   }
 }
 
-.tamaño{
+.tamaño {
   height: 30vw;
-  div{
+  div {
     height: 100%;
-    img{
+    img {
       height: 100%;
     }
   }
