@@ -14,7 +14,7 @@ export default function Index() {
           className="imgMatch"
           style={{ backgroundImage: `url(${imgBack})` }}
         >
-          <p>Pagina no encontrada</p>
+          <p>Estamos trabajando para usted</p>
           <div
             className="buttonHome"
             onClick={() => {
