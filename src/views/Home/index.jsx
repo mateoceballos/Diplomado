@@ -1,9 +1,9 @@
 import React from "react";
 import img1 from "../../assets/images/Views/index/img1.jpg";
 import img2 from "../../assets/images/Views/index/vacation.jpg";
-import img3 from "../../assets/images/Views/index/Carrusel1.jpg";
+import img3 from "../../assets/images/Views/index/Carrusel1.png";
 import img4 from "../../assets/images/Views/index/Carrusel2.jpg";
-import img5 from "../../assets/images/Views/index/Carrusel3.jpg";
+import img5 from "../../assets/images/Views/index/carrusel3.jfif";
 import parraf1 from "../../assets/texts";
 export default function Index() {
   return (
@@ -39,15 +39,15 @@ export default function Index() {
         </div>
       </section>
       <div id="carouselExampleFade" class="carousel slide carousel-fade">
-        <div class="carousel-inner">
+        <div class="carousel-inner tamaño">
           <div class="carousel-item active">
-            <img src={img3} class="d-block w-100" alt="..." />
+            <img src={img3} class="d-block w-100" height="200vw" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src={img4} class="d-block w-100" alt="..." />
+            <img src={img4} class="d-block w-100" height="200vw" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src={img5} class="d-block w-100" alt="..." />
+            <img src={img5} class="d-block w-100" height="200vw" alt="..." />
           </div>
         </div>
         <button
