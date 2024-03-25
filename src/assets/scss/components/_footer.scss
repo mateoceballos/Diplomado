@@ -4,6 +4,9 @@ footer {
   grid-template-columns: repeat(3, 30vw);
   grid-template-rows: 23vw;
   padding: 0 2vw;
+
+  @media (max-width: $media) {
+  }
   .imageFooter {
     align-items: center;
     display: flex;
