@@ -9,10 +9,18 @@
   background-color: $seconColor;
   display: grid;
   grid-template-areas: "first second";
-  justify-content: space-between;
+  justify-content: space-around;
   height: 30vw;
-  padding: 0 2vw;
-  width: 96vw;
+  width: 100%;
+  @media (max-width: $media) {
+    grid-template-areas:
+      "first"
+      "second";
+    grid-template-columns: 100%;
+    grid-template-rows: 60vw 20vw;
+    justify-content: center;
+    height: 80vw;
+  }
   .order1 {
     grid-area: first;
   }
@@ -24,8 +32,12 @@
     display: flex;
     justify-content: space-between;
     height: 100%;
+    margin: auto;
     position: relative;
-    width: 100%;
+    width: 96%;
+    @media (max-width: $media) {
+      width: 70vw;
+    }
     .contentImageDiv {
       height: auto;
       position: relative;

@@ -1,5 +1,6 @@
 import React from "react";
 import img1 from "../../assets/images/Views/index/img1.jpg";
+import img2 from "../../assets/images/Views/index/vacation.jpg";
 import parraf1 from "../../assets/texts";
 export default function Index() {
   return (
@@ -22,10 +23,10 @@ export default function Index() {
       <section className="SectionIndex sectionOrderText">
         <div className="contentImage order2">
           <div className="contentImageDiv">
-            <img src={img1} alt="" />
+            <img src={img2} alt="" />
             <div
               class="imagenSuperpuesta"
-              style={{ backgroundImage: `url(${img1})` }}
+              style={{ backgroundImage: `url(${img2})` }}
             />
           </div>
         </div>

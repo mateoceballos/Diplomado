@@ -2,9 +2,12 @@ $mainColor: #008dda;
 $seconColor: #41c9e2;
 $complementaryColor1: #ace2e1;
 $complementaryColor2: #f7eedd;
+$footer: #015d8f;
 
+$media: 600px;
 @import "./NoMatch/index";
 @import "./components/header";
+@import "./components/footer";
 @import "./views/index";
 
 body {

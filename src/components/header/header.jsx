@@ -3,7 +3,7 @@ import Logo from "../../assets/images/Componentes/Header/logo.jpg";
 
 export default function Header() {
   return (
-    <div className="headerMainClass">
+    <header className="headerMainClass">
       <div className="imgHeader">
         <img src={Logo} alt="Logo" />
       </div>
@@ -16,6 +16,6 @@ export default function Header() {
       <div className="itemMenuGeneral">
         <p>Obten mas información</p>
       </div>
-    </div>
+    </header>
   );
 }
